@@ -1,7 +1,5 @@
 package org.example.entity;
 
-import java.lang.annotation.ElementType;
-
 public class ElementMap {
 
     private String icon;

@@ -36,7 +36,6 @@ class MainTest {
         // When
         Main.main(input);
         // Then
-        return;
     }
 
     @Test
