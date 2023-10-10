@@ -56,3 +56,16 @@ On part du principe que les données sont sur des cases distinct en entré.
 Si je mets une entité(Montagne/Trésor/Aventurier) sur une case en dehors des dimmension?
 Les entités en dehors ne seront pas affiché ni comptabilisé (le gouvernement péruvien ne rémunere pas les gens qui ne savent pas lire une carte)
 
+
+
+## Run Locally
+
+Se mettre à la racine du projet.
+
+javac src/main/java/org/example/Main.java
+src/main/java/org/example/use_case/TreasureMapGeneration.java
+src/main/java/org/example/entity/*.java
+
+cd src/main/java
+
+java org.example.Main
